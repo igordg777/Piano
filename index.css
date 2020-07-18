@@ -204,3 +204,10 @@
     box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;
     color: red;
 }
+
+@media (max-width: 469px) and (min-width: 0px) {
+
+  #container, #boomBoxContainer{
+       display: none;
+   }
+}
