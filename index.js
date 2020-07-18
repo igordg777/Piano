@@ -146,11 +146,11 @@ let checkerboomBox = false;
 
 function soundBoomBox() {
     if (checkerboomBox === false) {
-        document.getElementById("myspan").innerHTML =
+        document.getElementById("myspanBoomBox").innerHTML =
             `<embed src='./examplePiano/soundBoomBox.mp3' hidden=true autostart=true loop=false>`;
         checkerboomBox = true;
     } else {
-        document.getElementById("myspan").innerHTML =
+        document.getElementById("myspanBoomBox").innerHTML =
             `<embed src='' hidden=true autostart=true loop=false>`;
         checkerboomBox = false;
     }
